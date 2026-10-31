@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
-    <meta http 
-    -equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dibujando con canvas</title>
 </head>
 <body>
     <h1>dibujo en canvas</h1>
     <p>
-        Cuantas lineas quieres
-        <input type="text" id="texto_lineas" />
-        <input type="button" value="a darle" id="botoncito" />  
+        <label for="texto_lineas">Cuantas lineas quieres</label>
+        <input type="number" id="texto_lineas" min="1" />
+        <input type="button" value="a darle" id="botoncito" />
     </p>
     <canvas width="300" height="300" id="dibujito"></canvas>
     <p>asi queda tu dibujo</p>
     <script src="dibujo.js"></script>
- </body>
-</html>  
+</body>
+</html>
